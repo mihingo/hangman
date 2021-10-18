@@ -22,8 +22,8 @@ const render = () => {
   });
 };
 const startGame = async () => {
-  const puzzle = await getPuzzle("2");
-  game1 = new Hangman(puzzle, 5);
+  const puzzle = await getPuzzle("3");
+  game1 = new Hangman(puzzle, 7);
   render();
 };
 
